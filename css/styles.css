@@ -316,6 +316,16 @@ button {
     align-items: center;
 }
 
+.two-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 /* Four section */
 .four-section {
     padding-top: 120px;
