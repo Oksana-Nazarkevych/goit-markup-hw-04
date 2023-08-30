@@ -271,10 +271,22 @@ button {
     width: calc((100% - 72px) / 4);
 }
 
+
 /* three section */
 .three-section {
     background-color: #F4F4FD;
     padding: 120px 0;
+}
+
+.ul-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.li-icon {
+    width: 40px;
+    height: 40px;
 }
 
 .team {
