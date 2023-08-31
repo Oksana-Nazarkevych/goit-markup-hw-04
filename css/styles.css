@@ -353,11 +353,7 @@ button {
     justify-content: center;
 }
 
-.network:hover {
-    background-color: #404bbf;
-}
-
-.network:focus {
+.network:hover .network:focus {
     background-color: #404bbf;
 }
 
