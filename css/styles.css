@@ -330,6 +330,7 @@ button {
     display: inline;
     justify-content: center;
     align-items: center;
+    fill: #f4f4fd;
 }
 
 .two-icon {
@@ -342,7 +343,7 @@ button {
     margin-bottom: 8px;
 }
 
-.soсial {
+.network {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -350,6 +351,14 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.network:hover {
+    background-color: #404bbf;
+}
+
+.network:focus {
+    background-color: #404bbf;
 }
 
 /* Four section */
