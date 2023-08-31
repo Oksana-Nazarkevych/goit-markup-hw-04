@@ -401,6 +401,11 @@ button {
     transform: translateY(0%);
 }
 
+.icon-portfolio {
+    position: relative;
+    overflow: hidden;
+}
+
 
 /* footer */
 .web {
