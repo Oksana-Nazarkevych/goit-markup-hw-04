@@ -488,3 +488,8 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+.works:hover,
+.works:focus {
+    background-color: #31d0aa;
+}
