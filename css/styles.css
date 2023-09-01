@@ -444,6 +444,7 @@ button {
 
 .foot {
     color: #f4f4fd;
+    padding-right: 120px;
 }
 
 .link-footer {
@@ -492,4 +493,8 @@ button {
 .works:hover,
 .works:focus {
     background-color: #31d0aa;
+}
+
+.work-icon {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
