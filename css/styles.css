@@ -437,10 +437,12 @@ button {
 
 .footer-text {
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #FFFFFF;
     letter-spacing: 0.02em;
     width: 100%;
     max-width: 264px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .foot {
@@ -456,8 +458,11 @@ button {
     display: flex;
 }
 
-.footer-class {
+.top {
     display: flex;
     align-items: baseline;
+}
+
+.footer-class {
     margin-right: 120px;
 }
