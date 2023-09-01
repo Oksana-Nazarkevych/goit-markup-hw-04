@@ -453,18 +453,18 @@ button {
 
 .footer-icon {
     display: flex;
-}
-
-.top {
-    display: flex;
-    align-items: baseline;
-    margin-right: 120px;
-}
-
-.footer-class {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+
+.top {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-class {
+    margin-right: 120px;
 }
