@@ -437,12 +437,9 @@ button {
 
 .footer-text {
     line-height: 1.5;
-    color: #FFFFFF;
-    letter-spacing: 0.02em;
+    color: #f4f4fd;
     width: 100%;
     max-width: 264px;
-    font-weight: 500;
-    margin-bottom: 16px;
 }
 
 .foot {
@@ -465,4 +462,9 @@ button {
 
 .footer-class {
     margin-right: 120px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
