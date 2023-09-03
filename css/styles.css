@@ -30,7 +30,6 @@ img {
 .linked {
     text-decoration: none;
     position: relative;
-    color: #404bbf;
 }
 
 .list {
@@ -145,6 +144,10 @@ button {
     display: flex;
     margin-right: 40px;
     padding: 24px 0;
+}
+
+.linked .page-navigation {
+    color: #404bbf;
 }
 
 .title-menu {
