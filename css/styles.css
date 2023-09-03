@@ -84,15 +84,9 @@ button {
     padding: 24px 0;
 }
 
-.page-nav .link:hover {
-    color: #404bbf;
-}
-
+.page-nav .link:hover,
+.page-nav .link:focus,
 .page-nav .link:active {
-    color: #404bbf;
-}
-
-.page-nav .link:focus {
     color: #404bbf;
 }
 
@@ -151,6 +145,10 @@ button {
     position: relative;
     color: #404bbf;
     padding: 24px 0 0 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
