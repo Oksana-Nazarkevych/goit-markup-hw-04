@@ -29,6 +29,8 @@ img {
 
 .linked {
     text-decoration: none;
+    position: relative;
+    color: #404bbf;
 }
 
 .list {
@@ -105,13 +107,11 @@ button {
     color: #434455;
 }
 
-.address .mail:hover {
-    color: #404bbf;
-}
-
+.address .mail:hover,
 .address .mail:focus {
     color: #404bbf;
 }
+
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
