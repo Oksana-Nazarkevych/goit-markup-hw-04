@@ -200,11 +200,12 @@ button {
         linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(/images/peopleoffice.jpg);
+        url(../images/peopleoffice.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
     background-position: center;
+    margin: 0 auto;
 }
 
 .one-section-h {
@@ -285,6 +286,15 @@ button {
     width: calc((100% - 72px) / 4);
 }
 
+.two-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
 /* three section */
 .three-section {
@@ -337,25 +347,10 @@ button {
 }
 
 .team-icon {
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    width: 40px;
-    height: 40px;
-    display: inline;
-    justify-content: center;
-    align-items: center;
     fill: #f4f4fd;
 }
 
-.two-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 112px;
-    background-color: #f4f4fd;
-    border-radius: 4px;
-    margin-bottom: 8px;
-}
+
 
 .network {
     width: 100%;
@@ -416,9 +411,9 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* p .text-portfolio:hover {
+.portfolio:hover .text-portfolio {
     transform: translateY(0%);
-} */
+}
 
 .portfolio-icon {
     position: relative;
